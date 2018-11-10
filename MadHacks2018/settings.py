@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'redditsentiment_api.apps.RedditsentimentApiConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
