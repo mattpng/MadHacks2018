@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from redditsentiment_api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('sentiment/user', views.get_user_comment_sentiment),
 ]
